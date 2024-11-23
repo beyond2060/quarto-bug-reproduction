@@ -1,0 +1,56 @@
+---
+title: This is James
+format:
+  html:
+    toc: false
+    categories: false
+    page-layout: full
+listing:
+- id: homelatest
+  template: js/all-table.ejs
+  contents:
+  - creating
+  - illustrating
+  - reflecting
+  - reviewing
+  - experimenting
+  sort: date desc
+  max-items: 6
+  type: table
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  exclude:
+    categories:
+    - listing
+    - draft
+  fields:
+  - date
+  - folder
+  - title
+image: this-is-james-seal.png
+open-graph:
+  title: The website of James Johnson. thisisjam.es
+  image: this-is-james-seal.png
+  image-height: 627
+  image-width: 1200
+twitter-card:
+  title: The website of James Johnson. thisisjam.es
+  image: this-is-james-seal.png
+  image-height: 627
+  image-width: 1200
+categories: []
+folder: .
+---
+
+I’m James Johnson. This is my website. Here I write, draw, create, experiment. 
+
+## Latest posts
+:::{#homelatest}
+:::
+## Highlights
+
+:::{#homehiglights}
+:::
+
+![](this-is-james-seal.png){.hidden}

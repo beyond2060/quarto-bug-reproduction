@@ -1,0 +1,6 @@
+---
+categories: []
+folder: experimenting
+subfolder: 2024-11-22T175152Z
+---
+<div id="tij-breadcrumbs"><a href="https://thisisjam.es">This is James</a>  / <a href="/experimenting/">experimenting</a></div>

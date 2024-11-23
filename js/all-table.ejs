@@ -1,0 +1,21 @@
+```{=html}
+<table class="quarto-listing-table table">
+<tbody class="list">
+
+<% for (const item of items) { %>
+<tr>
+<td style="width: 120px">
+<span class="listing-date"><%= item.date %></span>
+</td>
+<td style="width: 90px">
+<span class="listing-folder"><a href="/<%= item.folder %>" class="section-folder"><%= item.folder %></a></span>
+</td>
+<td style="width: auto">
+<a href="<%- item.path %>" class="title listing-title" data-original-href="<%- item.path %>"><%= item.title.split('*').join('') %></a>
+</td>
+</tr>
+<% } %>
+
+</tbody>
+</table>
+```
